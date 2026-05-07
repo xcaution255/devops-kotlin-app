@@ -6,7 +6,7 @@ spring:
     port: 8080
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/devops_db
+    url: jdbc:postgresql://postgres-db:5432/devops_db
     username: postgres
     password: Tino1372
 
