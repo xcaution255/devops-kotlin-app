@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: app
+
+  server:
+    port: 8080
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/devops_db
+    username: postgres
+    password: Tino1372
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
