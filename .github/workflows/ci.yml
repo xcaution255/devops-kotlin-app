@@ -37,5 +37,5 @@ jobs:
 
       - name: Tag and Push Docker image
         run: |
-          docker tag devops-kotlin-app ${{ secrets.DOCKER_USERNAME }}/devops-kotlin-app:latest
+          docker tag devops-kotlin-app:latest ${{ secrets.DOCKER_USERNAME }}/devops-kotlin-app:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/devops-kotlin-app:latest
