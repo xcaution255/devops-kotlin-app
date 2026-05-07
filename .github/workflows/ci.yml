@@ -39,5 +39,3 @@ jobs:
         run: |
           docker tag devops-kotlin-app ${{ secrets.DOCKER_USERNAME }}/devops-kotlin-app:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/devops-kotlin-app:latest
-
-
