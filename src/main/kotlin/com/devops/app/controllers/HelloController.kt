@@ -16,4 +16,9 @@ class HelloController {
     fun getUsers(): String {
         return "User : Augustino"
     }
+
+    @GetMapping("/health")
+    fun apiHealth(): String {
+        return "Api is active!!"
+    }
 }
